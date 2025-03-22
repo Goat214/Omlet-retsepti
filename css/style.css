@@ -126,10 +126,7 @@ body {
 }
 
 .section-Ingredients__heading {
-    font-family: "Young Serif";
-    font-weight: 400;
-    font-size: 28px;
-    color: #854632;
+  
     margin-bottom: 24px;
 }
 .section-Ingredients__info li::marker {
@@ -150,4 +147,14 @@ body {
     
     color: #E3DDD7;
     margin-bottom: 32px;
+}
+
+.section-Instructions__heading {
+
+}
+.smilar-heading {
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 28px;
+    color: #854632;
 }
