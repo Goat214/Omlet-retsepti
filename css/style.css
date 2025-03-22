@@ -1,0 +1,153 @@
+
+/* outfit-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* outfit-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/outfit-v11-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* outfit-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* young-serif-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Young Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/young-serif-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ ol , ul {
+    list-style: none;
+ }
+body {
+    background-color: rgba(255, 247, 251, 1);
+    font-family: "Outfit" , sans-serif;
+    font-weight: 400;
+    color: #5F564D;
+    font-size: 16px;
+    line-height: 150%;
+}
+.container {
+    margin-top: 123px;
+    margin-bottom: 124px;
+    width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+
+
+}
+.container-in {
+    width: 656px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-img {
+    padding-top: 40px;
+    border-radius: 12px;
+    padding-bottom: 40px;
+}
+
+.section-first {
+    margin-bottom: 32px;
+}
+
+.section-first__heading {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(49, 46, 44, 1);
+    padding-bottom: 24px;
+}
+
+
+.section-two {
+    background-color: #FFF7FB;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+.section-two__in {
+    width: 600px;
+    padding: 28px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-two__heading {
+    font-weight: 600;
+    font-size: 20px;
+    color: #7A284E;
+    padding-bottom: 16px;
+    
+}
+.section-two__ul  li{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5F564D;
+    margin-left: 20px;
+    list-style: disc;
+    padding-bottom: 8px;
+
+}
+.section-two__ul li::marker {
+    content: "     •       "; 
+    font-size: 17px;
+    color: #7A284E;
+
+}
+.section-two__ul strong {
+    color: #2c2b2b;
+}
+
+.section-Ingredients {
+    margin-bottom: 32px;
+}
+
+.section-Ingredients__heading {
+    font-family: "Young Serif";
+    font-weight: 400;
+    font-size: 28px;
+    color: #854632;
+    margin-bottom: 24px;
+}
+.section-Ingredients__info li::marker {
+    content: "   •       "; 
+    font-size: 18px;
+    color: #7A284E;
+}
+.section-Ingredients__info {
+    margin-left: 48px;
+}
+.section-Ingredients__info li {
+    margin-bottom: 8px;
+}
+.section-Ingredients__info li:last-child {
+    margin-bottom: 0;
+}
+.first-hr {
+    
+    color: #E3DDD7;
+    margin-bottom: 32px;
+}
