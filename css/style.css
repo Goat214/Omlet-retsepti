@@ -150,11 +150,70 @@ body {
 }
 
 .section-Instructions__heading {
+    margin-bottom: 24px;
 
 }
-.smilar-heading {
+.smilar-heading {   
     font-family: "Young Serif";
     font-weight: 400;
     font-size: 28px;
     color: #854632;
+}
+
+.section-Instructions {
+    margin-bottom: 32px;
+}
+
+.section-Instructions__ol li {
+    padding-bottom: 8px;
+}
+.section-Instructions__ol li:last-child {
+    padding-bottom: 0px;
+}
+ol {
+    list-style-type: decimal; 
+    padding-left: 40px; 
+}
+
+ol li::marker {
+    content: counter(list-item) ".      "; 
+    font-weight: bold; 
+}
+
+.section-Nutrition{
+    margin-bottom: 40px;
+}
+
+.section-Nutrition__heading{
+    margin-bottom: 24px;
+}
+
+.section-Nutrition__info {
+    margin-bottom: 24px;
+}
+.section-Nutrition__left div{
+    margin-left: 32px;
+    
+
+}
+.section-Nutrition__right  {
+    color: #854632;
+    font-weight: 700;
+    line-height: 150%;
+    
+
+}
+.right {
+    width: 288px;
+    
+
+}
+
+.section-Nutrition__last {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.bottom {
+    padding-bottom: 40px;
 }
